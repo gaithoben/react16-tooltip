@@ -3,7 +3,9 @@
 [![Dependency Status][david_img]][david_site]
 [![Greenkeeper badge][gk_img]][gk_site]
 
-# redux-tooltip
+# react16-tooltip
+
+This 
 
 A tooltip [React](https://facebook.github.io/react/) component for [Redux](https://github.com/reactjs/redux).
 
@@ -58,7 +60,7 @@ If you hover on the origin element, the tooltip will be shown.
 #### 1. Put a shared `Tooltip` component to [Container component](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.lek6bm8mf)
 
 ```javascript
-import { Tooltip } from 'redux-tooltip';
+import { Tooltip } from 'react16-tooltip';
 
 class App extends React.Component {
   render() {
@@ -75,7 +77,7 @@ class App extends React.Component {
 #### 2. Wrap your content with an `Origin` component within a Container or Presentational component
 
 ```javascript
-import { Origin } from 'redux-tooltip';
+import { Origin } from 'react16-tooltip';
 
 class Page extends React.Component {
   render() {
@@ -89,7 +91,7 @@ class Page extends React.Component {
 #### 3. Combine `redux-tooltip` reducer with yours
 
 ```javascript
-import { reducer as tooltip } from 'redux-tooltip';
+import { reducer as tooltip } from 'react16-tooltip';
 
 // ...
 
@@ -105,7 +107,7 @@ That's it!
 If you want to use 'delay' feature, please insert `redux-tooltip` middleware to enable the feature.
 
 ```javascript
-import { middleware as tooltip } from 'redux-tooltip';
+import { middleware as tooltip } from 'react16-tooltip';
 
 // ...
 
