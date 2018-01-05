@@ -5,7 +5,7 @@
 
 # react16-tooltip
 
-This 
+This is a fork of [redux-tooltip](https://github.com/kuy/redux-tooltip)
 
 A tooltip [React](https://facebook.github.io/react/) component for [Redux](https://github.com/reactjs/redux).
 
