@@ -20,7 +20,7 @@ A tooltip [React](https://facebook.github.io/react/) component for [Redux](https
 
 ## Why?
 
-[react-tooltip](https://github.com/wwayne/react-tooltip) is a popular tooltip library and I tried it with Redux.
+[react16-tooltip](https://github.com/wwayne/react-tooltip) is a popular tooltip library and I tried it with Redux.
 It works nice at first, but I struggled when I wanted to implement delay/keep features.
 I noticed the root issue is that all tooltip states should be stored in Redux.
 In addition to this, a tooltip should be controlled by Redux's actions.
@@ -88,7 +88,7 @@ class Page extends React.Component {
 }
 ```
 
-#### 3. Combine `redux-tooltip` reducer with yours
+#### 3. Combine `react16-tooltip` reducer with yours
 
 ```javascript
 import { reducer as tooltip } from 'react16-tooltip';
@@ -102,7 +102,7 @@ export default combineReducers(
 
 That's it!
 
-#### [Optional] 4. Insert `redux-tooltip` middleware with yours
+#### [Optional] 4. Insert `react16-tooltip` middleware with yours
 
 If you want to use 'delay' feature, please insert `redux-tooltip` middleware to enable the feature.
 
